@@ -6,7 +6,7 @@ from pymatgen.core import Structure, Composition
 from tqdm import tqdm
 
 from crystal_analysis import Crystal
-from .utils.data_processing import load_and_merge_csv, filter_defects, add_oxidation_states, prepare_formula_based_features, calculate_crystal_features
+from utils.data_processing import load_and_merge_csv, filter_defects, add_oxidation_states, prepare_formula_based_features, calculate_crystal_features
 from sklearn.linear_model import HuberRegressor
 
 def main():

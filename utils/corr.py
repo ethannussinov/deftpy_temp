@@ -25,3 +25,5 @@ def main():
 
 if __name__ == "__main__" :
     main()
+
+    # TODO: make into function for graphing purposes
